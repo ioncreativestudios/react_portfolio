@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="w-10/12 mx-auto">
         <SocialMediaIcons />
         <div className="md:flex justify-center md:justify-between text-center ">
-          <p className="font-playfair font-semibold text-2xl ">RYAN MORROW</p>
-          <p className="font-playfair text-md ">
+          <p className="font-Inter font-regular text-2xl ">RYAN MORROW</p>
+          <p className="font-Inter text-md ">
             ©2022 MORROW. All Rights Reserved.
           </p>
         </div>

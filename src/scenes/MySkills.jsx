@@ -7,7 +7,7 @@ const MySkills = () => {
   return (
     <section id="skills" className="pt-10 pb-24">
       {/* HEADER AND IMAGE SECTION */}
-      <div className="md:flex md:justify-between md:gap-16 mt-32">
+      <div className="md:flex md:justify-between md:gap-16 mt-24">
         <motion.div
           className="md:w-1/3"
           initial="hidden"
@@ -19,7 +19,7 @@ const MySkills = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="font-playfair font-semibold text-4xl mb-5">
+          <p className="font-Inter font-regular text-4xl mb-5">
             MY <span className="text-blue">SKILLS</span>
           </p>
           <LineGradient width="w-1/2" />
@@ -34,7 +34,7 @@ const MySkills = () => {
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-              before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+              before:w-full before:h-full before:border-2 before:border-yellow-300 before:z-[-1]"
             >
               <img
                 alt="skills"
@@ -49,7 +49,7 @@ const MySkills = () => {
       </div>
 
       {/* SKILLS */}
-      <div className="md:flex md:justify-between mt-16 gap-32">
+      <div className="md:flex md:justify-between mt-2 gap-32">
         {/* EXPERIENCE */}
         <motion.div
           className="md:w-1/3 mt-10"
@@ -65,16 +65,18 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
+              <p className="font-Inter font-semibold text-3xl mt-3">
                 Experience
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+          <p className="mt-5 text-sm">
+            A proven leader, spanning multiple companies ranging from start-up,
+            to series A, to established. Ryan, has the knowledge to tackle any
+            project and deliver a solution that is on brand and on budget. Ever
+            adaptive in the constant change of technology, has made me one
+            sought after when launching an idea that will be used by the public.
           </p>
         </motion.div>
 
@@ -97,13 +99,15 @@ const MySkills = () => {
                 Innovative
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-32 bg-amber-600 absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+          <p className="mt-5 text-sm">
+            Over the years of my career, I have become know as one that always
+            is on the cutting edge of technology from deploying special effects
+            during the first ever launched Halloween Horror nights at Universal
+            Studios, to bring the Golden State Warriors into virtual and
+            augmented reality. I am always pushing the limits on what is next
+            and what we can do to engage an audience!
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -127,7 +131,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <p className="mt-5 text-sm">
             Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
             curabitur. Lectus libero, egestas enim aliquam quis felis amet.
             Sagittis, amet netus fringilla netus lobortis odio sed platea.
